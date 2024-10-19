@@ -87,7 +87,7 @@
               >
                 <li>
                   <a
-                    href="#popular-routes"
+                    href=""
                     class="block py-2 px-3 text-white md:p-0"
                     aria-current="page"
                   >
@@ -95,17 +95,17 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-3 md:p-0 text-white"
+                  <a href="" class="block py-2 px-3 md:p-0 text-white"
                     >Tariff</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-3 md:p-0 text-white"
+                  <a href="" class="block py-2 px-3 md:p-0 text-white"
                     >Terms and Condition</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="block py-2 px-3 md:p-0 text-white"
+                  <a href="" class="block py-2 px-3 md:p-0 text-white"
                     >Contact</a
                   >
                 </li>
@@ -113,7 +113,9 @@
             </div>
           </div>
         </nav>
-        <div class="text-white text-center text-lg md:text-xl mt-10">
+        <div
+          class="text-white text-center text-xl md:text-2xl font-semibold mt-10"
+        >
           <p>Go Anywhere with Sri Vishnu Travels</p>
         </div>
         <div class="w-full flex justify-center mt-10 px-10">
@@ -125,7 +127,7 @@
             >
               <li class="z-30 flex-auto text-center">
                 <a
-                  class="z-30 flex items-center justify-center w-full px-0 py-2 text-sm mb-0 transition-all ease-in-out border-0 rounded-full cursor-pointer text-white tab-active"
+                  class="z-30 flex items-center justify-center w-full px-0 py-2 mb-0 transition-all ease-in-out border-0 rounded-full cursor-pointer tab tab-active"
                   data-tab-target="one-way"
                   role="tab"
                   aria-selected="true"
@@ -136,7 +138,7 @@
               </li>
               <li class="z-30 flex-auto text-center">
                 <a
-                  class="z-30 flex items-center justify-center w-full px-0 py-2 mb-0 text-sm transition-all ease-in-out border-0 rounded-full cursor-pointer text-white"
+                  class="z-30 flex items-center justify-center w-full px-0 py-2 mb-0 transition-all ease-in-out border-0 rounded-full cursor-pointer tab"
                   data-tab-target="round-trip"
                   role="tab"
                   aria-selected="false"
@@ -150,19 +152,19 @@
         </div>
         <div class="flex justify-center items-center mt-10 px-3">
           <form
-            class="w-full max-w-lg p-6 bg-gray-100 bg-opacity-10 rounded-xl shadow-xl"
+            class="w-full max-w-lg p-6 bg-gray-100 bg-opacity-30 rounded-xl shadow-xl"
           >
             <div class="mb-6">
               <label
                 for="pickup-location"
-                class="block mb-2 text-sm font-medium text-white"
+                class="block mb-2 font-medium text-white"
                 >Pickup Location</label
               >
               <div class="input-container">
                 <input
                   type="text"
                   id="pickup-location"
-                  class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400 placeholder-opacity-75"
+                  class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-200"
                   placeholder="Enter pickup location"
                 />
               </div>
@@ -170,14 +172,14 @@
             <div class="mb-6">
               <label
                 for="drop-location"
-                class="block mb-2 text-sm font-medium text-white"
+                class="block mb-2 font-medium text-white"
                 >Drop Location</label
               >
               <div class="input-container">
                 <input
                   type="text"
                   id="drop-location"
-                  class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400 placeholder-opacity-75"
+                  class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-200"
                   placeholder="Enter drop location"
                 />
               </div>
@@ -186,7 +188,7 @@
               <div>
                 <label
                   for="pickup-date"
-                  class="block mb-2 text-sm font-medium text-white"
+                  class="block mb-2 font-medium text-white"
                 >
                   Pickup Date
                 </label>
@@ -194,27 +196,27 @@
                   <input
                     type="date"
                     id="pickup-date"
-                    class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
+                    class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
                   />
                 </div>
               </div>
               <div>
                 <label
                   for="pickup-time"
-                  class="block mb-2 text-sm font-medium text-white"
+                  class="block mb-2 font-medium text-white"
                 >
                   Pickup Time
                 </label>
                 <input
                   type="time"
                   id="pickup-time"
-                  class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
+                  class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
                 />
               </div>
               <div id="return-date-container" style="display: none">
                 <label
                   for="return-pickup-date"
-                  class="block mb-2 text-sm font-medium text-white"
+                  class="block mb-2 font-medium text-white"
                 >
                   Return Pickup Date
                 </label>
@@ -222,28 +224,28 @@
                   <input
                     type="date"
                     id="return-pickup-date"
-                    class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
+                    class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
                   />
                 </div>
               </div>
               <div id="return-time-container" style="display: none">
                 <label
                   for="return-pickup-time"
-                  class="block mb-2 text-sm font-medium text-white"
+                  class="block mb-2 font-medium text-white"
                 >
                   Return Pickup Time
                 </label>
                 <input
                   type="time"
                   id="return-pickup-time"
-                  class="text-white text-sm rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-30 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
+                  class="text-white rounded-lg block w-full p-2.5 bg-gray-100 bg-opacity-40 ring-0 border-0 focus:ring-1 focus:ring-gray-400 placeholder-gray-400"
                 />
               </div>
             </div>
             <div class="mb-6">
               <label
                 for="car-category"
-                class="block mb-2 text-sm font-medium text-white"
+                class="block mb-2 font-medium text-white"
                 >Select Car Category</label
               >
               <div
@@ -256,7 +258,7 @@
                     alt="Economy"
                     class="w-12 h-12 mx-auto"
                   />
-                  <span class="text-white text-xs mt-1 block text-center"
+                  <span class="text-white text-sm mt-1 block text-center"
                     >Economy</span
                   >
                 </div>
@@ -266,7 +268,7 @@
                     alt="Economy"
                     class="w-12 h-12 mx-auto"
                   />
-                  <span class="text-white text-xs mt-1 block text-center"
+                  <span class="text-white text-sm mt-1 block text-center"
                     >Economy</span
                   >
                 </div>
@@ -276,7 +278,7 @@
                     alt="Economy"
                     class="w-12 h-12 mx-auto"
                   />
-                  <span class="text-white text-xs mt-1 block text-center"
+                  <span class="text-white text-sm mt-1 block text-center"
                     >Economy</span
                   >
                 </div>
@@ -286,7 +288,7 @@
                     alt="Economy"
                     class="w-12 h-12 mx-auto"
                   />
-                  <span class="text-white text-xs mt-1 block text-center"
+                  <span class="text-white text-sm mt-1 block text-center"
                     >Economy</span
                   >
                 </div>
@@ -296,14 +298,14 @@
                     alt="Economy"
                     class="w-12 h-12 mx-auto"
                   />
-                  <span class="text-white text-xs mt-1 block text-center"
+                  <span class="text-white text-sm mt-1 block text-center"
                     >Economy</span
                   >
                 </div>
               </div>
             </div>
             <button
-              class="text-white bg-black font-medium bg-opacity-70 rounded-lg text-sm w-full px-5 py-2.5 text-center"
+              class="text-white bg-black font-bold bg-opacity-70 rounded-lg w-full px-5 py-2.5 text-center"
             >
               Get Price
             </button>
@@ -346,6 +348,27 @@
           <div class="route-info">
             <span class="from">Mardurai</span>
             <span class="to">Chennai</span>
+          </div>
+          <button class="book-btn">Book</button>
+        </div>
+        <div class="route-card">
+          <div class="route-info">
+            <span class="from">Chennai</span>
+            <span class="to">Coimbatore</span>
+          </div>
+          <button class="book-btn">Book</button>
+        </div>
+        <div class="route-card">
+          <div class="route-info">
+            <span class="from">Chennai</span>
+            <span class="to">Coimbatore</span>
+          </div>
+          <button class="book-btn">Book</button>
+        </div>
+        <div class="route-card">
+          <div class="route-info">
+            <span class="from">Chennai</span>
+            <span class="to">Coimbatore</span>
           </div>
           <button class="book-btn">Book</button>
         </div>
@@ -450,7 +473,7 @@
       </div>
     </section>
     <section id="terms-and-conditions" class="terms-section">
-      <div class="container mx-auto px-4 py-16">
+      <div class="container mx-auto px-4 py-16 relative z-10">
         <h2 class="text-3xl font-bold text-center mb-8">
           Terms and Conditions
         </h2>
@@ -512,10 +535,7 @@
         </div>
       </div>
     </section>
-    <section
-      id="contact"
-      class="contact-section bg-gradient-to-b from-gray-100 to-white py-16"
-    >
+    <section id="contact" class="contact-section py-16">
       <div class="container mx-auto px-4">
         <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">
           Get in Touch
@@ -531,7 +551,7 @@
                 class="h-8 w-8 text-red-500 mr-3"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#F3C623"
               >
                 <path
                   stroke-linecap="round"
@@ -544,15 +564,13 @@
             </div>
             <p class="mb-2 text-gray-600">
               <strong class="text-gray-700">Email:</strong>
-              <a
-                href="mailto:info@srivishnutravels.com"
-                class="text-blue-600 hover:underline"
+              <a href="mailto:info@srivishnutravels.com" class="hover:underline"
                 >info@srivishnutravels.com</a
               >
             </p>
             <p class="text-gray-600">
               <strong class="text-gray-700">Phone:</strong>
-              <a href="tel:+919876543210" class="text-blue-600 hover:underline"
+              <a href="tel:+919876543210" class="hover:underline"
                 >+91 98765 43210</a
               >
             </p>
@@ -567,7 +585,7 @@
                 class="h-8 w-8 text-red-500 mr-3"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#F3C623"
               >
                 <path
                   stroke-linecap="round"
@@ -600,7 +618,7 @@
                 class="h-8 w-8 text-red-500 mr-3"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#F3C623"
               >
                 <path
                   stroke-linecap="round"
